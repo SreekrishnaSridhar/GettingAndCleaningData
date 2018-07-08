@@ -94,19 +94,22 @@ The last two variable names were added to match the original dataset. The datase
 
 Finally the tidy dataset has the following variables :
 
-Variable 1 : subject
+## Variable 1 : subject
+
 This variable has values from 1 to 30. It represent the users involved in the study.
 
-Variable 2: activity
-This variable has 6 set of values representing different activities. They are :
-1 WALKING
-2 WALKING_UPSTAIRS
-3 WALKING_DOWNSTAIRS
-4 SITTING
-5 STANDING
-6 LAYING
+## Variable 2: activity
 
-Variable 3 : measurement
+This variable has 6 set of values representing different activities. They are :
+1. WALKING
+2. WALKING_UPSTAIRS
+3. WALKING_DOWNSTAIRS
+4. SITTING
+5. STANDING
+6. LAYING
+
+## Variable 3 : measurement
+
 The original features are now represented as rows in the column measurement. The values are :
 
  [1] "body-acceleration-mean()-x-time"                 
@@ -178,5 +181,6 @@ The original features are now represented as rows in the column measurement. The
 [67] "subject"                                         
 [68] "activity"
 
-Variable 4 : mean
+## Variable 4 : mean
+
 The mean across each measurement was calculated.
