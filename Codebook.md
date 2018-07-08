@@ -9,15 +9,15 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 The variables have been renamed based on certain patterns as follows :
 
-rename_feature_names <- featureName[reqd_feature_ids]
-rename_feature_names <- gsub("^f(.*)$","\\1-frequency",rename_feature_names)
-rename_feature_names <- gsub("^t(.*)$","\\1-time",rename_feature_names)
-rename_feature_names <- gsub("Mag","\\1-magnitude",rename_feature_names)
-rename_feature_names <- gsub("Acc","\\1-acceleration",rename_feature_names)
-rename_feature_names <- gsub("BodyBody","Body",rename_feature_names)
-rename_feature_names <- tolower(rename_feature_names)
-rename_feature_names <- append(rename_feature_names , c("subject","activity"))
-names(meanStdData) <- rename_feature_names
+* rename_feature_names <- featureName[reqd_feature_ids]
+* rename_feature_names <- gsub("^f(.*)$","\\1-frequency",rename_feature_names)
+* rename_feature_names <- gsub("^t(.*)$","\\1-time",rename_feature_names)
+* rename_feature_names <- gsub("Mag","\\1-magnitude",rename_feature_names)
+* rename_feature_names <- gsub("Acc","\\1-acceleration",rename_feature_names)
+* rename_feature_names <- gsub("BodyBody","Body",rename_feature_names)
+* rename_feature_names <- tolower(rename_feature_names)
+* rename_feature_names <- append(rename_feature_names , c("subject","activity"))
+* names(meanStdData) <- rename_feature_names
 
 Finally, the variable names are as follows : 
 
