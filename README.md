@@ -10,10 +10,12 @@ This project is part of the coursera course "Getting and Cleaning Data".  The da
 
 
 The file name is run_analysis.R
-To run the file we use the command : source("run_analysis.R").
+To run the file we use the command : 
+## source("run_analysis.R").
 
 
 
 A tidy data set called "tidy_data.txt" would be created.
-To view the contents in R, simply run the statement :  tidyData <- read.table("tidy_data.txt")
+To view the contents in R, simply run the statement :  
+## tidyData <- read.table("tidy_data.txt")
 
